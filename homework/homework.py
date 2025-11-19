@@ -51,7 +51,7 @@
 #
 # Paso 2.
 # Divida los datasets en x_train, y_train, x_test, y_test.
-#
+##
 #
 # Paso 3.
 # Cree un pipeline para el modelo de clasificación. Este pipeline debe
