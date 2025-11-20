@@ -12,40 +12,42 @@ import pandas as pd  # type: ignore
 MODEL_FILENAME = "files/models/model.pkl.gz"
 MODEL_COMPONENTS = [
     "OneHotEncoder",
-    "RandomForestClassifier",
+    "SelectKBest",
+    "MinMaxScaler",
+    "LogisticRegression",
 ]
 SCORES = [
-    0.785,
-    0.673,
+    0.639,
+    0.654,
 ]
 METRICS = [
     {
         "type": "metrics",
         "dataset": "train",
-        "precision": 0.944,
-        "balanced_accuracy": 0.785,
-        "recall": 0.580,
-        "f1_score": 0.719,
+        "precision": 0.693,
+        "balanced_accuracy": 0.639,
+        "recall": 0.319,
+        "f1_score": 0.437,
     },
     {
         "type": "metrics",
         "dataset": "test",
-        "precision": 0.650,
-        "balanced_accuracy": 0.673,
-        "recall": 0.401,
-        "f1_score": 0.498,
+        "precision": 0.701,
+        "balanced_accuracy": 0.654,
+        "recall": 0.349,
+        "f1_score": 0.466,
     },
     {
         "type": "cm_matrix",
         "dataset": "train",
-        "true_0": {"predicted_0": 16060, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 2740},
+        "true_0": {"predicted_0": 15560, "predicted_1": None},
+        "true_1": {"predicted_0": None, "predicted_1": 1508},
     },
     {
         "type": "cm_matrix",
         "dataset": "test",
-        "true_0": {"predicted_0": 6670, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 760},
+        "true_0": {"predicted_0": 6785, "predicted_1": None},
+        "true_1": {"predicted_0": None, "predicted_1": 660},
     },
 ]
 

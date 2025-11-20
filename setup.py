@@ -11,5 +11,6 @@ setup(
         "pandas",
         "scikit-learn",
         "ipykernel",
+        "xlrd",
     ],
 )

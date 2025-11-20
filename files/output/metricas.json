@@ -1,4 +1,0 @@
-{"type": "metrics", "dataset": "entrenamiento", "precision": 0.9561024276687728, "exactitud_balanceada": 0.8001657596185572, "recall": 0.6084656084656085, "f1_score": 0.7436627004655976}
-{"type": "metrics", "dataset": "prueba", "precision": 0.6612209802235598, "exactitud_balanceada": 0.6738789781693504, "recall": 0.40346274921301156, "f1_score": 0.5011404366243076}
-{"tipo": "cm_matrix", "dataset": "entrenamiento", "real_0": {"predicho_0": 16096, "predicho_1": 132}, "real_1": {"predicho_0": 1850, "predicho_1": 2875}}
-{"tipo": "cm_matrix", "dataset": "prueba", "real_0": {"predicho_0": 6679, "predicho_1": 394}, "real_1": {"predicho_0": 1137, "predicho_1": 769}}
